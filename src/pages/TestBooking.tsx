@@ -38,7 +38,7 @@ const TestBooking = () => {
       
       <main className="flex-1">
         <Hero />
-        <ReassuranceBlock />
+        
         <CalendarEmbed />
 
         <div className="mt-6 text-center">
@@ -48,7 +48,8 @@ const TestBooking = () => {
             {t.bookingReassurance.hostedBy}
           </p>
         </div>
-        
+
+        <ReassuranceBlock />
         <OutcomeSection />
       </main>
       
