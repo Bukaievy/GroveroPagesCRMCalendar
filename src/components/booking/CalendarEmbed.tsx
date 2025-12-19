@@ -11,7 +11,7 @@ export const CalendarEmbed = () => {
           {/* Calendar Container */}
           <div className="rounded-2xl bg-card border border-border shadow-grovero-lg overflow-hidden">
             <iframe
-              src="https://app.cal.eu/grovero/test?theme=light"
+              src="https://app.cal.eu/grovero/checkin?theme=light"
               width="100%"
               height="650"
               frameBorder="0"
