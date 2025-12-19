@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "title": "Kom MiniGro testen in Amsterdam | Hands-on microgroenten demo",
+    "description": "Boek een hands-on MiniGro sessie. Zie het in actie, proef verse microgroenten en ontdek workflow, installatie en echte besparingen."
+  },
+  "header": {
+    "home": "Home",
+    "logo": "MiniGro",
+    "logoSubtitle": "by Grovero"
+  },
+  "hero": {
+    "title": "Kom MiniGro testen in Amsterdam",
+    "subtitle": "Zie MiniGro van dichtbij, proef verse microgroenten en stel al je vragen in een korte, vrijblijvende testsessie.",
+    "bullets": [
+      "Bekijk MiniGro in actie",
+      "Proef microgroenten die we ter plekke oogsten",
+      "Krijg antwoord op al je vragen over gebruik, installatie en besparing"
+    ],
+    "reassurance": "Je kunt zelf met MiniGro werken, oogsten en proeven.",
+    "metadataLine": "📍 Moezelhavenweg 41, Amsterdam   •   ⏱  ± 30 minuten"
+  },
+  "outcome": {
+    "title": "Wat je meeneemt uit de sessie",
+    "bullets": [
+      "Inzicht in de dagelijkse workflow",
+      "Duidelijke uitleg over installatie & ruimte",
+      "Exacte besparing op basis van jouw gebruik"
+    ]
+  },
+  "calendar": {
+    "fallback": "Geen geschikt tijdstip? Mail ons op info@grovero.com"
+  },
+  "bookingReassurance": {
+  "noSales": "Geen verkooppraatjes. Gewoon een praktische testsessie.",
+  "hostedBy": "De sessie wordt begeleid door het Grovero-team in Amsterdam."
+  },
+  "footer": {
+    "copyright": "© 2025 Grovero. All rights reserved."
+  }
+}
