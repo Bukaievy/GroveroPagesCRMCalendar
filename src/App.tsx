@@ -3,7 +3,7 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import TestBooking from "./pages/Index";
+import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -14,18 +14,18 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-        <Routes> 
-          {/* Default redirect to Dutch */} 
-          <Route path="/" element={<Navigate to="/nl" replace />} /> 
-          
-          {/* Localized test booking pages */} 
-          <Route path="/:lang/test" element={<TestBooking />} /> 
-          
-          {/* Home redirects for each locale */} 
-          <Route path="/nl" element={<Navigate to="/nl" replace />}/> 
-          <Route path="/en" element={<Navigate to="/en" replace />}/> 
-          {/* Catch-all 404 */} 
-          <Route path="*" element={<NotFound />} /> 
+        <Routes>
+          {/* Default redirect to Dutch */}
+          <Route path="/" element={<Navigate to="/nl" replace />} />
+
+          {/* Localized pages */}
+          <Route path="/:lang" element={<Index />} />
+
+          {/* Optional: redirect old /test URLs */}
+          <Route path="/:lang/test" element={<Navigate to="/:lang" replace />} />
+
+          {/* Catch-all 404 */}
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
