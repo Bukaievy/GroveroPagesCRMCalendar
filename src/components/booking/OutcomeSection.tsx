@@ -5,7 +5,7 @@ export const OutcomeSection = () => {
   const { t } = useTranslation();
   
   return (
-    <section className="section-spacing bg-background-subtle">
+    <section className="pt-10 pb-12 bg-background-subtle">
       <div className="container-grovero">
         <div className="max-w-2xl mx-auto">
           {/* Section Title */}
