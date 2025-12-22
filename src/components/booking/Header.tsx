@@ -23,7 +23,7 @@ export const Header = () => {
         {/* Navigation */}
         <nav className="flex items-center gap-6">
         <a
-          href="https://minigro.grovero.com/"
+          href="https://go.grovero.com/"
           className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
         >
           {t.header.home}
