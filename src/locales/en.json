@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Test MiniGro in Amsterdam | Hands-on Microgreen Growing Demo",
-    "description": "Book a hands-on MiniGro session. See it in action, taste fresh microgreens, and discover workflow, installation, and real savings."
+    "title": "Check if MiniGro fits your kitchen",
+    "description": "Book a short call with our team. We'll check if a MiniGro makes sense for you."
   },
   "header": {
     "home": "Home",
@@ -9,30 +9,23 @@
     "logoSubtitle": "by Grovero"
   },
   "hero": {
-    "title": "Come test MiniGro in Amsterdam",
-    "subtitle": "See MiniGro up close, taste fresh microgreens, and ask any questions during a short, no-pressure test session.",
-    "bullets": [
-      "See MiniGro operating in real conditions",
-      "Taste microgreens harvested on the spot",
-      "Get answers about usage, installation, and savings"
-    ],
-    "reassurance": "You can operate, harvest, and taste from MiniGro yourself.",
-    "metadataLine": "📍 Moezelhavenweg 41, Amsterdam   •   ⏱  ~30 minutes"
+    "title": "Quick check if MiniGro fits your kitchen",
+    "subtitle": "Unsure whether MiniGro is a practical fit for your space, workflow, or team? This is usually clear within a 10-15 minute call.",
+    "reassurance": "You can operate, harvest, and taste from MiniGro yourself."
   },
   "outcome": {
-    "title": "What you'll walk away with",
+    "title": "What we’ll cover",
     "bullets": [
-      "Clarity about daily workflow",
-      "Clear understanding of installation & space requirements",
-      "Exact savings based on your kitchen's usage"
+      "Your kitchen setup and available space",
+      "How MiniGro fits into daily service",
+      "Whether it makes sense to continue (or not)"
     ]
   },
   "calendar": {
     "fallback": "Can't find a suitable time? Contact us at info@grovero.com"
   },
   "bookingReassurance": {
-  "noSales": "No sales pitch. Just a practical test session.",
-  "hostedBy": "Hosted by the Grovero team in Amsterdam."
+  "noSales": "No sales pitch. Just a quick call to see if MiniGro is a fit."
   },
   "footer": {
     "copyright": "© 2025 Grovero. All rights reserved."
