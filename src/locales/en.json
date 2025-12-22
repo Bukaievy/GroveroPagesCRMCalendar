@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Check if MiniGro fits your kitchen",
-    "description": "Book a short call with our team. We'll check if a MiniGro makes sense for you."
+    "title": "MiniGro by Grovero",
+    "description": "Quick check to see if MiniGro practically fits your kitchen. Usually clear within a 10–15 minute call."
   },
   "header": {
     "home": "Home",
@@ -9,9 +9,22 @@
     "logoSubtitle": "by Grovero"
   },
   "hero": {
-    "title": "Quick check if MiniGro fits your kitchen",
-    "subtitle": "Unsure whether MiniGro is a practical fit for your space, workflow, or team? This is usually clear within a 10-15 minute call.",
-    "reassurance": "You can operate, harvest, and taste from MiniGro yourself."
+    "title": "Quick check if MiniGro practically fits your kitchen",
+    "subtitle": "Unsure whether MiniGro is a practical fit for your space, workflow, or team? This is usually clear within 10–15 minutes.",
+    "bullets": [],
+    "reassurance": "",
+    "metadataLine": ""
+  },
+  "calendar": {
+    "fallback": "Prefer email? Contact us at info@grovero.com"
+  },
+  "bookingReassurance": {
+    "noSales": "No sales pitch. Just a quick call to see if MiniGro is a fit.",
+    "credibility": [
+      "Developed and assembled in the Netherlands",
+      "Setup guidance and support included",
+      "Built for professional kitchens"
+    ]
   },
   "outcome": {
     "title": "What we’ll cover",
@@ -20,12 +33,6 @@
       "How MiniGro fits into daily service",
       "Whether it makes sense to continue (or not)"
     ]
-  },
-  "calendar": {
-    "fallback": "Can't find a suitable time? Contact us at info@grovero.com"
-  },
-  "bookingReassurance": {
-  "noSales": "No sales pitch. Just a quick call to see if MiniGro is a fit."
   },
   "footer": {
     "copyright": "© 2025 Grovero. All rights reserved."
