@@ -16,14 +16,14 @@ const App = () => (
       <BrowserRouter>
         <Routes> 
           {/* Default redirect to Dutch */} 
-          <Route path="/" element={<Navigate to="/nl/test" replace />} /> 
+          <Route path="/" element={<Navigate to="/nl" replace />} /> 
           
           {/* Localized test booking pages */} 
           <Route path="/:lang/test" element={<TestBooking />} /> 
           
           {/* Home redirects for each locale */} 
-          <Route path="/nl" element={<Navigate to="/nl/test" replace />}/> 
-          <Route path="/en" element={<Navigate to="/en/test" replace />}/> 
+          <Route path="/nl" element={<Navigate to="/nl" replace />}/> 
+          <Route path="/en" element={<Navigate to="/en" replace />}/> 
           {/* Catch-all 404 */} 
           <Route path="*" element={<NotFound />} /> 
         </Routes>
