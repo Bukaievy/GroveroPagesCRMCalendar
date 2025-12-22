@@ -28,4 +28,22 @@ export const Hero = () => {
               {t.hero.bullets.map((bullet, index) => (
                 <div
                   key={index}
-                  className="flex items-start gap-3 text-left animate-fade
+                  className="flex items-start gap-3 text-left animate-fade-in-up"
+                  style={{ animationDelay: `${0.2 + index * 0.1}s` }}
+                >
+                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center mt-0.5">
+                    <Check className="w-4 h-4 text-primary" />
+                  </div>
+                  <span className="text-foreground font-medium">
+                    {bullet}
+                  </span>
+                </div>
+              ))}
+            </div>
+          )}
+
+        </div>
+      </div>
+    </section>
+  );
+};
