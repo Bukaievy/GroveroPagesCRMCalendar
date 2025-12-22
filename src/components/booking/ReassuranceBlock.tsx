@@ -9,7 +9,7 @@ export const ReassuranceBlock = () => {
   if (!Array.isArray(items) || items.length === 0) return null;
 
   return (
-    <section className="py-8 bg-background-subtle">
+    <section className="pt-4 pb-6 bg-background-subtle">
       <div className="container-grovero">
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 text-sm text-muted-foreground">
           {items.map((text: string, idx: number) => (
