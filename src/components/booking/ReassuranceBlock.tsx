@@ -1,7 +1,7 @@
 import { useTranslation } from "@/hooks/useTranslation";
 import { Check } from "lucide-react";
 
-export const CredibilityBlock = () => {
+export const ReassuranceBlock = () => {
   const { t } = useTranslation();
 
   // Safety: if missing/empty, render nothing
