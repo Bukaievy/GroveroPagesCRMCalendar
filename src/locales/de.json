@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "title": "MiniGro by Grovero",
+    "description": "Kurzer Check, ob MiniGro praktisch in eure Küche passt. In der Regel ist das in 10–15 Minuten klar."
+  },
+  "header": {
+    "home": "Start",
+    "logo": "MiniGro",
+    "logoSubtitle": "by Grovero"
+  },
+  "hero": {
+    "title": "Kurzer Check, ob MiniGro praktisch in eure Küche passt",
+    "subtitle": "Ihr seid euch nicht sicher, ob MiniGro zu eurem Platz, Ablauf oder Team passt? Das ist meist in 10–15 Minuten klar.",
+    "bullets": []
+  },
+  "calendar": {
+    "fallback": "Lieber per E-Mail? info@grovero.com"
+  },
+  "bookingReassurance": {
+    "noSales": "Kein Verkaufsgespräch. Nur ein kurzer Call, um zu prüfen, ob MiniGro passt.",
+    "hostedBy": "Call mit dem Grovero Team.",
+    "credibility": [
+      "In den Niederlanden entwickelt und montiert",
+      "Einrichtung, Begleitung und Support inklusive",
+      "Für professionelle Küchen gebaut"
+    ]
+  },
+  "outcome": {
+    "title": "Was wir besprechen",
+    "bullets": [
+      "Euer Küchen-Setup und der verfügbare Platz",
+      "Wie MiniGro in den täglichen Service passt",
+      "Ob es sinnvoll ist, weiterzumachen (oder eben nicht)"
+    ]
+  },
+  "footer": {
+    "copyright": "© 2025 Grovero. Alle Rechte vorbehalten."
+  }
+}
