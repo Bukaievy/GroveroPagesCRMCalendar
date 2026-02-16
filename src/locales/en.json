@@ -25,6 +25,7 @@
   },
   "bookingReassurance": {
     "noSales": "No sales pitch. Just a quick call to see if MiniGro is a fit.",
+    "hostedBy": "Call hosted by the Grovero team.",
     "credibility": [
       "Developed and assembled in the Netherlands",
       "Setup guidance and support included",
